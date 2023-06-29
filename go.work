@@ -13,5 +13,6 @@ use (
 "./time"
 "./top_k_frequent"
 "./two_sum"
+"./valid_parentheses"
 "./valid_sudoku"
 )
