@@ -1,1 +1,17 @@
 go 1.20
+
+use (
+"./abc"
+"./anagram"
+"./candles"
+"./contains_duplicate"
+"./grades"
+"./group_anagram"
+"./linked_list"
+"./longest_consecutive_sequence"
+"./product_of_array_except_self"
+"./time"
+"./top_k_frequent"
+"./two_sum"
+"./valid_sudoku"
+)

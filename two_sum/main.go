@@ -9,7 +9,7 @@ func main() {
 //most efficient solution for memory
 
 func twoSum(nums []int, target int) []int {
-	for index, _ := range nums {
+	for index := range nums {
 		for i := index + 1; i < len(nums); i++ {
 			if nums[index]+nums[i] == target {
 				return []int{index, i}
@@ -21,13 +21,13 @@ func twoSum(nums []int, target int) []int {
 
 //most efficient solution for time
 
-func twoSumFast(nums []int, target int) []int {
-	m := make(map[int]int)
-	for i, num := range nums {
-		if j, ok := m[target-num]; ok {
-			return []int{j, i}
-		}
-		m[num] = i
-	}
-	return []int{}
-}
+// func twoSumFast(nums []int, target int) []int {
+// 	m := make(map[int]int)
+// 	for i, num := range nums {
+// 		if j, ok := m[target-num]; ok {
+// 			return []int{j, i}
+// 		}
+// 		m[num] = i
+// 	}
+// 	return []int{}
+// }
