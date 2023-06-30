@@ -9,6 +9,7 @@ use (
 "./group_anagram"
 "./linked_list"
 "./longest_consecutive_sequence"
+"./min_stack"
 "./product_of_array_except_self"
 "./time"
 "./top_k_frequent"
